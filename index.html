@@ -51,7 +51,7 @@
                 <br>
                 ДЛЯ ВАШЕГО БИЗНЕСА
             </h1>
-        <button class="button-primary-first btn-size" type="button">Заказать услугу</button>
+        <button class="button-primary-first btn-size" type="button" data-modal-open>Заказать услугу</button>
         </div>
         </section>
         <section class="section">
@@ -371,5 +371,15 @@
         </div>
         </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="close-btn" data-modal-close>
+            <svg class="close-icon" width="11" height="11">
+                <use href="./images/sprite.svg#icon-close"></use>
+            </svg>
+            </button>
+        </div>
+        </div>
+    <script src="./js/modal.js"></script>  
     </body>
 </html>
